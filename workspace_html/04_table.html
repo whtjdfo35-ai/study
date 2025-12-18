@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>table</title>
 </head>
 
 <body>
@@ -84,7 +84,7 @@
                 <th>내용2</th>
             </tr>
             <tr>
-                <th>내용1</th>
+                <th> <em> 내용1 </em> </th>
                 <th>내용2</th>
             </tr>
         </tbody>
@@ -94,9 +94,11 @@
     <table border="1">
         <tr>
             <th width="200" height="100">제목</th>
+            <!-- th 상하좌우 가운데 정렬 -->
         </tr>
         <tr>
             <td width="200" height="100">내용</td>
+            <!-- td 상하 가운데 정렬 -->
         </tr>
     </table>
     <hr>
@@ -123,10 +125,7 @@
         </tr>
         <tr>
             <td>
-                <img 
-                    src="poppy.jfif"
-                    title="happy"
-                >
+                <img src="poppy.jfif" title="happy">
             </td>
             <td>b</td>
             <td>c</td>
@@ -137,8 +136,25 @@
             <td>다</td>
         </tr>
     </table>
-    
 
+    <br>
+    <table border="2">
+        <tr height="200">
+            <!-- tr은 height속성 가능, width 속성 불가능 -->
+            <td width="150">
+                <table border="1">
+                    <tr>
+                        <!-- td안에 바로 tr을 바로 못 넣기 때문에 table로 감싼 tr을 넣는다 -->
+                        <td>
+                            <img src="poppy.jfif" width="80" height="40">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>   
+    </table>
+
+   
 </body>
 
 </html>
