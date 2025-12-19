@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css </title>
+
+    <style>
+        /* css주석 */
+
+        * {
+            color: red;
+        }
+
+        /* *는 전체 선택자 */
+
+        h2 {
+            font-size: 400%;
+        }
+
+        h1 {
+            font-size: 400%;
+        }
+
+        h1,
+        h2 {
+            color: yellowgreen;
+        }
+
+        .c1 {
+            background-color: green;
+        }
+
+        .bigtext {
+            font-size: 30px;
+        }
+
+        #il {
+            color: black;
+        }
+
+        div>strong {
+            background-color: violet;
+        }
+
+        div strong {
+            border : 3px solid red
+        }
+
+        [href]{
+            background-color: yellow;
+        }
+
+        [type=text]{
+            background-color: yellow;
+        }
+        
+        [id=il] {
+            color: red;
+        }
+        /*#il은 [id=il]의 축약*/
+
+        [href^=https] {
+            background-color: pink;
+        }
+        /*https로 시작되는 값들*/
+    </style>
+
+</head>
+
+<body>
+    <h1> Hello world </h1>
+    <h2> sub title </h2>
+    <ul>
+        <li class="c1" id="il"> li 1 </li>
+        <li class="c1 bigtext"> li 2 </li>
+        <li> li 3 </li>
+    </ul>
+    <br>
+
+
+    <div>
+        <strong> div > strong </strong>
+    </div>
+    <br>
+
+    <div>
+        <a href="">
+            <strong>div > a > strong</strong>
+        </a>
+    </div>
+
+    <p>
+        <span>
+            <div>
+                <strong> aa </strong>
+            </div>
+        </span>
+    </p>
+    <br>
+
+    <strong> out strong </strong>
+    <br>
+
+    <input type="text"> <br>
+    <input type="password"> 
+    <br><br>
+
+    <a href="http://...">http</a><br>
+    <a href="https://...">https</a><br>
+
+
+    
+
+</body>
+
+</html>
