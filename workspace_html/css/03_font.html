@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 1.2em;
+        }
+
+        @font-face 
+        /* 웹 폰트 다운로드 명령어 */
+        {
+            font-family: 'GMarketSans';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+            font-weight: 500;
+            font-display: swap;
+        }
+
+        #p1 {
+            font-family: 'gmarketsans', arial;
+        }
+
+        .style{
+            font-style: italic;
+        }
+        .fw100{ font-weight: 100;}
+        .fw400{ font-weight: 400;}
+        .fw900{ font-weight: 900;}
+        .fw2000{ font-weight: 2000;}
+        .fwbold{ font-weight: bold;}
+        
+        /* <<<<<<<<<<<<<<<<<<<<<<<<<<25.12.22 */
+
+    </style>
+
+
+</head>
+
+<body>
+    기본 글씨 abc 123
+    <p id="p1">
+        글씨
+        <div> 자식 안 쪽 글씨</div>
+    </p>  
+    <div class="style">
+        font-style
+    </div>  
+
+    <div class="fw100">100</div>
+    <div class="fw400">400</div>
+    <div class="fw900">900</div>
+    <div class="fw2000">2000</div>
+    <div class="fwbold">bold</div>
+
+    <!-- <<<<<<<<<<<25.12.22 -->
+
+    <h1>h1</h1>
+</body>
+
+</html>
