@@ -1,0 +1,19 @@
+.q2  {
+    background-color: rgb(159, 171, 238);
+}
+
+.q2 div{
+    display: inline-block;
+    width: 500px;
+    margin: 10px 30px;
+    vertical-align: middle;
+   }
+
+.q2 .text{
+    background-color: white;
+    line-height: 2em;
+    padding: 20px;
+    font-size: 25px;
+    height: 590px;
+}
+/* 글자 가운데 정렬은 이게 최선인가? */
